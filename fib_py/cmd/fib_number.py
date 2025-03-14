@@ -5,7 +5,7 @@ def fib_number() -> None:
     parser = argparse.ArgumentParser(
         description='Calculate the nth Fibonacci number')
     parser.add_argument(
-        'n',
+        '-n',
         '--number',
         type=int, 
         help='The nth Fibonacci number to calculate')
