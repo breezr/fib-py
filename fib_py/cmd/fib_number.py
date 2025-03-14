@@ -10,4 +10,4 @@ def fib_number() -> None:
         type=int, 
         help='The nth Fibonacci number to calculate')
     args = parser.parse_args()
-    print(f"The Fibonacci number is: {recurring_fibonacci_number(number=args.n)}")
+    print(f"The Fibonacci number is: {recurring_fibonacci_number(number=args.number)}")
